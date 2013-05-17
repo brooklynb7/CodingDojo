@@ -43,3 +43,11 @@ test("Output an 3x5 array with (1,2),(2,4) value is '*'", function(){
 test("Output an 3x5 array with (0,0),(3,5) value is '*'", function(){
 	deepEqual(generateMineSweeper(3,5,[{x:0,y:0}, {x:3,y:5}]),[['*',1,0,0,0],[1,1,0,0,0],[0,0,0,0,0]],"Result should be an 3x5 array with (0,0),(3,5) value [['*',1,0,0,0],[1,1,0,0,0],[0,0,0,0,0]");
 });
+
+test("Class of Minesweeper", function() {
+	ok(new Minesweeper(), "Create an instance of Minesweeper successfully");
+	ok(new Minesweeper(3,5), "Create an instance of Minesweeper with row and column successfully");
+
+	var minesweeper = new Minesweeper(3,5);
+	
+});

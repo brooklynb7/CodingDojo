@@ -42,3 +42,8 @@ function generateMineSweeper(row, col, mines){
 	
 	return field;
 }
+
+function  Minesweeper (row, col) {
+	this.row = row;
+	this.col = col;
+}

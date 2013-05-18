@@ -1,4 +1,4 @@
 CodingDojo
 ==========
 
-Coding dojo
+http://codingdojo.org/
